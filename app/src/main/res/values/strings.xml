@@ -14,4 +14,10 @@
     <string name="ayuda">ayuda</string>
     <string name="fondo">imagenFondo</string>
     <string name="ABOUTUS">ACERCA DE</string>
+    <string name="ivconejo">ivconejo</string>
+    <string name="ivgato">ivgato</string>
+    <string name="iverizo">iverizo</string>
+    <string name="ivorangutan">ivorangutan</string>
+    <string name="ivperro">ivperro</string>
+    <string name="ivpanda">ivpanda</string>
 </resources>

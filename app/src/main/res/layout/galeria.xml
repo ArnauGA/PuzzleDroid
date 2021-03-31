@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -39,4 +40,75 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.215" />
+
+    <ImageView
+        android:id="@+id/ivConejo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="75dp"
+        android:contentDescription="@string/ivconejo"
+        app:layout_constraintEnd_toStartOf="@+id/ivErizo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvGaleria"
+        app:srcCompat="@drawable/conejito" />
+
+    <ImageView
+        android:id="@+id/ivErizo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/iverizo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvGaleria"
+        app:srcCompat="@drawable/erizo" />
+
+    <ImageView
+        android:id="@+id/ivGato"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="75dp"
+        android:contentDescription="@string/ivgato"
+        app:layout_constraintEnd_toStartOf="@+id/ivPanda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivConejo"
+        app:srcCompat="@drawable/gatito" />
+
+    <ImageView
+        android:id="@+id/ivPanda"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/ivpanda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivErizo"
+        app:srcCompat="@drawable/panda" />
+
+    <ImageView
+        android:id="@+id/ivPerro"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="75dp"
+        android:contentDescription="@string/ivperro"
+        app:layout_constraintEnd_toStartOf="@+id/ivOrangutan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGato"
+        app:srcCompat="@drawable/perrito" />
+
+    <ImageView
+        android:id="@+id/ivOrangutan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/ivorangutan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPanda"
+        app:srcCompat="@drawable/orangutan" />
+
 </android.support.constraint.ConstraintLayout>
